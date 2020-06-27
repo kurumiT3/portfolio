@@ -5,7 +5,7 @@
       <h1>Spencer Woo</h1>
     </div>
     <div class="title-desc-container">
-      <a id="github" href="https://github.com/spencerwooo"
+      <a id="github" href="https://github.com/kurumiT3"
         ><img class="title-font" src="./../assets/images/github.svg" />Developer</a
       >
       <span>/</span>
@@ -22,8 +22,8 @@
       <p>
         I go by the name of <i>Spencer Woo</i>. Various other IDs across the net:
         <a href="https://twitter.com/realSpencerWoo">@realSpencerWoo</a> /
-        <a href="https://weibo.com/spencerwoo">@SpencerWoo</a> /
-        <a href="https://github.com/spencerwooo">@spencerwooo</a>.
+        <a href="https://weibo.com/kurumit3">@SpencerWoo</a> /
+        <a href="https://github.com/kurumiT3">@kurumiT3</a>.
       </p>
 
       <h2>Academics</h2>
@@ -39,19 +39,18 @@
 
       <h2>Devices</h2>
       <ul>
-        <li>Intel® NUC Kit NUC8I5BEK</li>
-        <li>ThinkPad X1 Carbon 7th Gen</li>
-        <li>Sony 1000XM3</li>
-        <li>iPhone XR / iPad Air 3 / AirPods Pro</li>
+        <li>Macbook PRO</li>
+        <li>Sora 碧 Lite</li>
+        <li>Redmi Note 7 / A Poor Guy😭</li>
       </ul>
 
       <h2>Contacts</h2>
       <ul>
         <li>
           <b>Email：</b>
-          <a href="mailto:spencerwoo98@gmail.com">spencerwoo98#gmail.com</a><i> (Preferred)</i>
+          <a href="mailto:kurumiyout3@gmail.com">kurumiyout3@gmail.com</a><i> (Preferred)</i>
         </li>
-        <li><b>Catch me: </b>Beijing Institute of Technology, Beijing, China</li>
+        <li><b>Catch me: </b> Shanghai, China</li>
       </ul>
     </div>
   </div>
