@@ -9,11 +9,7 @@
         ><img class="title-font" src="./../assets/images/github.svg" />Developer</a
       >
       <span>/</span>
-      <a id="sspai" href="https://sspai.com/u/spencerwoo/posts"
-        ><img class="title-font" src="./../assets/images/sspai.svg" />Writer</a
-      >
-      <span>/</span>
-      <a id="blog" href="https://blog.spencerwoo.com"
+      <a id="blog" href="https://kurumit3.top/"
         ><img class="title-font" src="./../assets/images/zeit.svg" />Blogger</a
       >
     </div>
@@ -21,20 +17,18 @@
       <h2>Name</h2>
       <p>
         I go by the name of <i>Spencer Woo</i>. Various other IDs across the net:
-        <a href="https://twitter.com/realSpencerWoo">@realSpencerWoo</a> /
-        <a href="https://weibo.com/kurumit3">@SpencerWoo</a> /
+        <a href="https://www.instagram.com/nightmare_t3/">@nightmare_t3</a> /
+        <a href="https://weibo.com/kurumit3">@逆旅光</a> /
         <a href="https://github.com/kurumiT3">@kurumiT3</a>.
       </p>
 
       <h2>Academics</h2>
       <ul>
-        <li><b>Current:</b> Computer Science <i>UNDERGRAD</i> at Beijing Institute of Technology. Graduating soon.</li>
+        <li><b>Current:</b> Student <i>UNDERGRAD</i> at Shanghai Xiangming High School </li>
         <li>
-          <b>Future:</b> Prospective student at <a href="https://www.gla.ac.uk/">the University of Glasgow</a>, 1/2021
-          entry, <a href="https://www.gla.ac.uk/postgraduate/taught/computingsciencemsc/">MSc in Computing Science</a>.
-          🙇
+          <b>Future:</b> UNCERTAIN
         </li>
-        <li><b>Fields of interest:</b> Adversarial attacks / Image classification / AI security.</li>
+        <li><b>Fields of interest:</b> Coding / Literature </li>
       </ul>
 
       <h2>Devices</h2>
