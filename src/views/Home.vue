@@ -2,7 +2,7 @@
   <div class="container">
     <div id="name-container">
       <img id="avatar" src="./../assets/images/av.png" alt="avatar" />
-      <h1>Spencer Woo</h1>
+      <h1>Kurumit3</h1>
     </div>
     <div class="title-desc-container">
       <a id="github" href="https://github.com/kurumiT3"
