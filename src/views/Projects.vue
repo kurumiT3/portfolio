@@ -24,18 +24,6 @@
         Home Page
       </p>
     </GitHubCard>
-
-    <GitHubCard
-      title="📖 BIThesis"
-      link="https://github.com/spencerwooo/Substats"
-      :info="bithesisInfo"
-      :loading="loading"
-    >
-      <p>
-        LaTeX templates for your bachelor graduation thesis (and more) here at BIT.
-      </p>
-    </GitHubCard>
-
     
   </div>
 </template>
