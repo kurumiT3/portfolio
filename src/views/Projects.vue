@@ -6,7 +6,7 @@
     <GitHubCard
       title="My Blog"
       link="https://github.com/kurumiT3/kurumiT3.github.io"
-      :info="BLOG"
+      :info="My Blog"
       :loading="loading"
     >
       <p>
