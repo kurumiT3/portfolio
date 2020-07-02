@@ -63,8 +63,8 @@ export default {
   mounted() {
     const githubApiUrl = 'https://api.github.com/repos'
 
-    const dowwwAxios = this.axios.get(`${githubApiUrl}/spencerwooo/dowww`)
-    const substatsAxios = this.axios.get(`${githubApiUrl}/spencerwooo/Substats`)
+    const My Blog = this.axios.get(`${githubApiUrl}/kurumiT3/kurumiT3.github.io`)
+    const portfolio = this.axios.get(`${githubApiUrl}/kurumiT3/portfolio`)
     const bithesisAxios = this.axios.get(`${githubApiUrl}/spencerwooo/BIThesis`)
     const fatesAxios = this.axios.get(`${githubApiUrl}/SecureCats/Evaluation_BackEnd`)
     const dotfilesAxios = this.axios.get(`${githubApiUrl}/spencerwooo/dotfiles`)
