@@ -130,13 +130,13 @@ export default {
     const rssAxios = this.axios.get(`${apiUrl}/?source=feedly|inoreader&queryKey=${rssUrl}`)
     const sspaiAxios = this.axios.get(`${apiUrl}/?source=sspai&queryKey=spencerwoo`)
     const jikeAxios = this.axios.get(`${apiUrl}/?source=jikeFollower&queryKey=4DDA0425-FB41-4188-89E4-952CA15E3C5E`)
-    const zhihuAxios = this.axios.get(`${apiUrl}/?source=zhihu&queryKey=spencer-woo-64`)
-    const weiboAxios = this.axios.get(`${apiUrl}/?source=weibo&queryKey=6265807914`)
-    const twitterAxios = this.axios.get(`${apiUrl}/?source=twitter&queryKey=realSpencerWoo`)
+    const zhihuAxios = this.axios.get(`${apiUrl}/?source=zhihu&queryKey=ni-lu-guang`)
+    const weiboAxios = this.axios.get(`${apiUrl}/?source=weibo&queryKey=kurumit3`)
+    const twitterAxios = this.axios.get(`${apiUrl}/?source=twitter&queryKey=Nightma34781407`)
     const mediumAxios = this.axios.get(`${apiUrl}/?source=medium&queryKey=@SpencerWooo`)
-    const githubAxios = this.axios.get(`${apiUrl}/?source=github&queryKey=spencerwooo`)
+    const githubAxios = this.axios.get(`${apiUrl}/?source=github&queryKey=kurumiT3`)
     const steamGamesAxios = this.axios.get(`${apiUrl}/?source=steamGames&queryKey=76561198336249957`)
-    const telegramAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=realSpencerWoo`)
+    const telegramAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=kurumit3`)
 
     rssAxios.then(r => {
       this.rss = { data: r.data.data.totalSubs, loading: false }
