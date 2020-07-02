@@ -11,34 +11,33 @@
           suffix="members"
           icon="telegram.png"
           :loading="telegram.loading"
-          link="https://t.me/realSpencerWoo"
+          link="https://t.me/kurumit3"
         />
-        <statCard
+        <!-- <statCard
           statTitle="Jike"
           :followers="jike.data"
           suffix="followers"
           icon="jike.png"
           :loading="jike.loading"
           link="https://m.okjike.com/users/4DDA0425-FB41-4188-89E4-952CA15E3C5E"
-        />
-      </div>
-      <div class="row-container">
+        /> -->
+      
         <statCard
           statTitle="RSS"
           :followers="rss.data"
           suffix="subscribers"
           icon="rss.png"
           :loading="rss.loading"
-          link="https://blog.spencerwoo.com/posts/index.xml"
+          link="https://kurumit3.top/"
         />
-        <statCard
+        <!-- <statCard
           statTitle="SSPAI"
           :followers="sspai.data"
           suffix="followers"
           icon="sspai.png"
           :loading="sspai.loading"
           link="https://sspai.com/u/spencerwoo/posts"
-        />
+        /> -->
       </div>
       <div class="row-container">
         <statCard
@@ -47,7 +46,7 @@
           suffix="fans"
           icon="weibo.png"
           :loading="weibo.loading"
-          link="https://weibo.com/spencerwoo"
+          link="https://weibo.com/kurumit3"
         />
         <statCard
           statTitle="Zhihu"
@@ -55,7 +54,7 @@
           suffix="followers"
           icon="zhihu.png"
           :loading="zhihu.loading"
-          link="https://www.zhihu.com/people/spencer-woo-64"
+          link="https://www.zhihu.com/people/ni-lu-guang"
         />
       </div>
       <div class="row-container">
@@ -65,7 +64,7 @@
           suffix="followers"
           icon="twitter.png"
           :loading="twitter.loading"
-          link="https://twitter.com/realSpencerWoo"
+          link="https://twitter.com/Nightma34781407"
         />
         <statCard
           statTitle="GitHub"
@@ -73,9 +72,9 @@
           suffix="followers"
           icon="github.png"
           :loading="github.loading"
-          link="https://github.com/spencerwooo"
+          link="https://github.com/kurumiT3"
         />
-      </div>
+      <!-- </div>
       <div class="row-container">
         <statCard
           statTitle="Medium"
@@ -92,7 +91,7 @@
           icon="steam.png"
           :loading="steamGames.loading"
           link="https://steamcommunity.com/id/firebearllc/"
-        />
+        /> -->
       </div>
     </div>
 
