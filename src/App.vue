@@ -6,23 +6,12 @@
       <router-view />
     </transition>
 
-    <div id="footer">
+    <<div id="footer">
       <div id="footer-text">
-        <p>
-          Built with ♥ and
-          <a href="https://vuejs.org/">Vue.js</a>. Proudly deployed on
-          <a href="https://vercel.com/spencerwoo/home">Vercel</a> with APIs hosted on
-          <a href="https://www.cloudflare.com/">Cloudflare</a>.
-        </p>
-        <p>
-          Designed, coded, and deployed from scratch by Spencer Woo. Open source on
-          <a href="https://github.com/spencerwooo/portfolio">GitHub</a>.
-        </p>
-        <p id="busuanzi_container_site_pv">
-          Viewed by you guys for a total of
-          <span id="busuanzi_value_site_pv"></span> times ♥
-        </p>
-        <p id="footer-copyright">©2019 - {{ getYear() }} Spencer Woo</p>
+        <center>
+          <p id="footer-copyright">©{{ getYear() }} kurumit3 | <a style="text-decoration: none;" </a></p>
+          <a href="https://github.com/spencerwooo/portfolio" target="_blank"><img style="height: 60px" src="/copyright.svg" alt="copyright"/></a>
+        </center>
       </div>
     </div>
   </div>
