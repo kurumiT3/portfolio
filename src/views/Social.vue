@@ -28,7 +28,7 @@
           suffix="subscribers"
           icon="rss.png"
           :loading="rss.loading"
-          link="https://kurumit3.top/"
+          link="https://kurumit3.top/atom.xml/"
         />
         <!-- <statCard
           statTitle="SSPAI"
@@ -125,7 +125,7 @@ export default {
   },
   mounted() {
     const apiUrl = 'https://api.spencerwoo.com/substats'
-    const rssUrl = 'https://blog.spencerwoo.com/posts/index.xml'
+    const rssUrl = 'https://kurumit3.top/posts/atom.xml'
 
     const rssAxios = this.axios.get(`${apiUrl}/?source=feedly|inoreader&queryKey=${rssUrl}`)
     const sspaiAxios = this.axios.get(`${apiUrl}/?source=sspai&queryKey=spencerwoo`)
