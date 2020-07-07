@@ -67,11 +67,9 @@ export default {
     const My Blog = this.axios.get(`${githubApiUrl}/kurumiT3/kurumiT3.github.io`)
     const portfolio = this.axios.get(`${githubApiUrl}/kurumiT3/portfolio`)
     const Blog2 = this.axios.get(`${githubApiUrl}/kurumiT3/blog2`)
-    const fatesAxios = this.axios.get(`${githubApiUrl}/SecureCats/Evaluation_BackEnd`)
-    const dotfilesAxios = this.axios.get(`${githubApiUrl}/spencerwooo/dotfiles`)
-
+    
     this.axios
-      .all([dowwwAxios, substatsAxios, bithesisAxios, fatesAxios, dotfilesAxios])
+      .all([My BlogAxios, portfolioAxios, Blog2Axios])
       .then(
         this.axios.spread((...resp) => {
           this.loading = false
