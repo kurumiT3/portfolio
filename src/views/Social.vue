@@ -154,16 +154,16 @@ export default {
       this.telegram = { data: r.data.data.totalSubs, loading: false }
     })
     CoolapkAxios.then(r => {
-      this.telegram = { data: 402, loading: false }
+      this.Coolapk = { data: 402, loading: false }
     })
    DoubanAxios.then(r => {
-      this.telegram = { data: 1, loading: false }
+      this.Douban = { data: 1, loading: false }
     })
     QQAxios.then(r => {
-      this.telegram = { data: 139, loading: false }
+      this.QQ = { data: 139, loading: false }
     })
     BilibiliAxios.then(r => {
-      this.telegram = { data: 12, loading: false }
+      this.Bilibili = { data: 12, loading: false }
     })
   },
 }
