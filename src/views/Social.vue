@@ -13,14 +13,14 @@
           :loading="telegram.loading"
           link="https://t.me/kurumit3"
         />
-        <!-- <statCard
-          statTitle="Jike"
-          :followers="jike.data"
+        <statCard
+          statTitle="QQ"
+          :followers="QQ.data"
           suffix="followers"
-          icon="jike.png"
-          :loading="jike.loading"
-          link="https://m.okjike.com/users/4DDA0425-FB41-4188-89E4-952CA15E3C5E"
-        /> -->
+          icon="QQ.png"
+          :loading="QQ.loading"
+          link="http://wpa.qq.com/msgrd?v=3&uin=1817855234&site=qq&menu=yes"
+        /> 
       
         <statCard
           statTitle="RSS"
@@ -30,14 +30,14 @@
           :loading="rss.loading"
           link="https://kurumit3.top/atom.xml"
         />
-        <!-- <statCard
-          statTitle="SSPAI"
-          :followers="sspai.data"
+        <statCard
+          statTitle="Douban"
+          :followers="Douban.data"
           suffix="followers"
-          icon="sspai.png"
-          :loading="sspai.loading"
-          link="https://sspai.com/u/spencerwoo/posts"
-        /> -->
+          icon="douban.png"
+          :loading="Douban.loading"
+          link="https://www.douban.com/people/kurumit3/"
+        /> 
       </div>
       <div class="row-container">
         <statCard
@@ -74,24 +74,24 @@
           :loading="github.loading"
           link="https://github.com/kurumiT3"
         />
-      <!-- </div>
+      </div>
       <div class="row-container">
         <statCard
-          statTitle="Medium"
-          :followers="medium.data"
+          statTitle="Bilibili"
+          :followers="Bilibili.data"
           suffix="readers"
-          icon="medium.png"
-          :loading="medium.loading"
-          link="https://medium.com/spencerweekly"
+          icon="bilibili.png"
+          :loading="Bilibili.loading"
+          link="https://space.bilibili.com/351869081"
         />
         <statCard
-          statTitle="Steam Games"
-          :followers="steamGames.data"
-          suffix="games"
-          icon="steam.png"
-          :loading="steamGames.loading"
-          link="https://steamcommunity.com/id/firebearllc/"
-        /> -->
+          statTitle="Coolapk"
+          :followers="Coolapk.data"
+          suffix="Coolapk"
+          icon="coolapk.png"
+          :loading="Coolapk.loading"
+          link="https://space.bilibili.com/351869081"
+        /> 
       </div>
     </div>
 
@@ -119,7 +119,7 @@ export default {
       twitter: { data: 0, loading: true },
       medium: { data: 0, loading: true },
       github: { data: 0, loading: true },
-      steamGames: { data: 0, loading: true },
+      Coolapk: { data: 402, loading: true },
       telegram: { data: 0, loading: true },
     }
   },
@@ -128,16 +128,13 @@ export default {
     const rssUrl = 'https://kurumit3.top/atom.xml'
 
     const rssAxios = this.axios.get(`${apiUrl}/?source=feedly|inoreader&queryKey=${rssUrl}`)
-    const sspaiAxios = this.axios.get(`${apiUrl}/?source=sspai&queryKey=spencerwoo`)
-    const jikeAxios = this.axios.get(`${apiUrl}/?source=jikeFollower&queryKey=4DDA0425-FB41-4188-89E4-952CA15E3C5E`)
     const zhihuAxios = this.axios.get(`${apiUrl}/?source=zhihu&queryKey=ni-lu-guang`)
     const weiboAxios = this.axios.get(`${apiUrl}/?source=weibo&queryKey=6482844382`)
     const twitterAxios = this.axios.get(`${apiUrl}/?source=twitter&queryKey=Nightma34781407`)
-    const mediumAxios = this.axios.get(`${apiUrl}/?source=medium&queryKey=@SpencerWooo`)
     const githubAxios = this.axios.get(`${apiUrl}/?source=github&queryKey=kurumiT3`)
-    const steamGamesAxios = this.axios.get(`${apiUrl}/?source=steamGames&queryKey=76561198336249957`)
     const telegramAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=kurumit3`)
 
+   
     rssAxios.then(r => {
       this.rss = { data: r.data.data.totalSubs, loading: false }
     })
@@ -167,6 +164,9 @@ export default {
     })
     telegramAxios.then(r => {
       this.telegram = { data: r.data.data.totalSubs, loading: false }
+    })
+    CoolapkAxios.then(r => {
+      this.telegram = { data: 402, loading: false }
     })
   },
 }
