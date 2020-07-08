@@ -112,15 +112,15 @@ export default {
   data() {
     return {
       rss: { data: 0, loading: true },
-      jike: { data: 0, loading: true },
-      sspai: { data: 0, loading: true },
       zhihu: { data: 0, loading: true },
       weibo: { data: 0, loading: true },
       twitter: { data: 0, loading: true },
-      medium: { data: 0, loading: true },
       github: { data: 0, loading: true },
       Coolapk: { data: 402, loading: true },
       telegram: { data: 0, loading: true },
+      QQ: { data:139, loading: true },
+      Bilibili: { data:12, loading: true },
+      Douban: { data:1, loading: true },
     }
   },
   mounted() {
@@ -138,12 +138,6 @@ export default {
     rssAxios.then(r => {
       this.rss = { data: r.data.data.totalSubs, loading: false }
     })
-    sspaiAxios.then(r => {
-      this.sspai = { data: r.data.data.totalSubs, loading: false }
-    })
-    jikeAxios.then(r => {
-      this.jike = { data: r.data.data.totalSubs, loading: false }
-    })
     zhihuAxios.then(r => {
       this.zhihu = { data: r.data.data.totalSubs, loading: false }
     })
@@ -153,20 +147,23 @@ export default {
     twitterAxios.then(r => {
       this.twitter = { data: r.data.data.totalSubs, loading: false }
     })
-    mediumAxios.then(r => {
-      this.medium = { data: r.data.data.totalSubs, loading: false }
-    })
     githubAxios.then(r => {
       this.github = { data: r.data.data.totalSubs, loading: false }
-    })
-    steamGamesAxios.then(r => {
-      this.steamGames = { data: r.data.data.totalSubs, loading: false }
     })
     telegramAxios.then(r => {
       this.telegram = { data: r.data.data.totalSubs, loading: false }
     })
     CoolapkAxios.then(r => {
       this.telegram = { data: 402, loading: false }
+    })
+   DoubanAxios.then(r => {
+      this.telegram = { data: 1, loading: false }
+    })
+    QQAxios.then(r => {
+      this.telegram = { data: 139, loading: false }
+    })
+    BilibiliAxios.then(r => {
+      this.telegram = { data: 12, loading: false }
     })
   },
 }
