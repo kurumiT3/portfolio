@@ -14,14 +14,10 @@
           link="https://t.me/kurumit3"
         />
         <statCard
-          statTitle="QQ"
-          :followers="QQ.data"
-          suffix="followers"
+          statTitle="QQ“
           icon="QQ.png"
-          :loading="QQ.loading"
           link="http://wpa.qq.com/msgrd?v=3&uin=1817855234&site=qq&menu=yes"
         /> 
-      <div class="col-container">
         <statCard
           statTitle="RSS"
           :followers="rss.data"
@@ -32,10 +28,7 @@
         />
         <statCard
           statTitle="Douban"
-          :followers="Douban.data"
-          suffix="followers"
           icon="douban.png"
-          :loading="Douban.loading"
           link="https://www.douban.com/people/kurumit3/"
         /> 
       </div>
@@ -78,18 +71,12 @@
       <div class="row-container">
         <statCard
           statTitle="Bilibili"
-          :followers="Bilibili.data"
-          suffix="readers"
           icon="bilibili.png"
-          :loading="Bilibili.loading"
           link="https://space.bilibili.com/351869081"
         />
         <statCard
           statTitle="Coolapk"
-          :followers="Coolapk.data"
-          suffix="Coolapk"
           icon="coolapk.png"
-          :loading="Coolapk.loading"
           link="https://space.bilibili.com/351869081"
         /> 
       </div>
@@ -115,12 +102,8 @@ export default {
       zhihu: { data: 0, loading: true },
       weibo: { data: 0, loading: true },
       twitter: { data: 0, loading: true },
-      github: { data: 0, loading: true },
-      Coolapk: { data: 0, loading: true },
+      github: { data: 0, loading: true }
       telegram: { data: 0, loading: true },
-      QQ: { data:0, loading: true },
-      Bilibili: { data:0, loading: true },
-      Douban: { data:0, loading: true },
     }
   },
   mounted() {
