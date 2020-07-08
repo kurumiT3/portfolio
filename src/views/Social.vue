@@ -133,10 +133,7 @@ export default {
     const twitterAxios = this.axios.get(`${apiUrl}/?source=twitter&queryKey=Nightma34781407`)
     const githubAxios = this.axios.get(`${apiUrl}/?source=github&queryKey=kurumiT3`)
     const telegramAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=kurumit3`)
-    <!-- const CoolapkAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=kurumit3`)
-    const BilibiliAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=kurumit3`)
-    const DoubanAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=kurumit3`)
-    const QQAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=kurumit3`) -->
+
    
     rssAxios.then(r => {
       this.rss = { data: r.data.data.totalSubs, loading: false }
