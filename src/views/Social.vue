@@ -15,7 +15,7 @@
         />
         <statCard
           statTitle="QQ"
-          :friends="137"
+          :followers="137"
           suffix="friends"
           icon="QQ.png"
           :loading="twitter.loading"
