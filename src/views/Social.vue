@@ -17,7 +17,7 @@
           statTitle="QQ"
           :followers="twitter.data"
           suffix="followers"
-          icon="QQ.png"
+          icon="QQ.ico"
           :loading="twitter.loading"
           link="http://wpa.qq.com/msgrd?v=3&uin=1817855234&site=qq&menu=yes"
         /> 
@@ -33,7 +33,7 @@
           statTitle="Douban"
           :followers="twitter.data"
           suffix="followers"
-          icon="douban.png"
+          icon="douban.ico"
           :loading="twitter.loading"
           link="https://www.douban.com/people/kurumit3/"
         /> 
@@ -79,7 +79,7 @@
           statTitle="Bilibili"
           :followers="twitter.data"
           suffix="followers"
-          icon="bilibili.png"
+          icon="bilibili.ico"
           :loading="twitter.loading"
           link="https://space.bilibili.com/351869081"
         />
@@ -87,7 +87,7 @@
           statTitle="Coolapk"
           :followers="twitter.data"
           suffix="followers"
-          icon="coolapk.png"
+          icon="coolapk.ico"
           :loading="twitter.loading"
           link="https://space.bilibili.com/351869081"
         /> 
