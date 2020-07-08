@@ -102,7 +102,7 @@ export default {
       zhihu: { data: 0, loading: true },
       weibo: { data: 0, loading: true },
       twitter: { data: 0, loading: true },
-      github: { data: 0, loading: true }
+      github: { data: 0, loading: true },
       telegram: { data: 0, loading: true },
     }
   },
