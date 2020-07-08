@@ -116,11 +116,11 @@ export default {
       weibo: { data: 0, loading: true },
       twitter: { data: 0, loading: true },
       github: { data: 0, loading: true },
-      Coolapk: { data: 402, loading: true },
+      Coolapk: { data: 402, loading: false },
       telegram: { data: 0, loading: true },
-      QQ: { data:139, loading: true },
-      Bilibili: { data:12, loading: true },
-      Douban: { data:1, loading: true },
+      QQ: { data:139, loading: false },
+      Bilibili: { data:12, loading: false },
+      Douban: { data:1, loading: false },
     }
   },
   mounted() {
@@ -133,10 +133,10 @@ export default {
     const twitterAxios = this.axios.get(`${apiUrl}/?source=twitter&queryKey=Nightma34781407`)
     const githubAxios = this.axios.get(`${apiUrl}/?source=github&queryKey=kurumiT3`)
     const telegramAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=kurumit3`)
-    const CoolapkAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=kurumit3`)
+    <!-- const CoolapkAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=kurumit3`)
     const BilibiliAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=kurumit3`)
     const DoubanAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=kurumit3`)
-    const QQAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=kurumit3`)
+    const QQAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=kurumit3`) -->
    
     rssAxios.then(r => {
       this.rss = { data: r.data.data.totalSubs, loading: false }
@@ -155,18 +155,6 @@ export default {
     })
     telegramAxios.then(r => {
       this.telegram = { data: r.data.data.totalSubs, loading: false }
-    })
-    CoolapkAxios.then(r => {
-      this.Coolapk = { data: 402, loading: false }
-    })
-   DoubanAxios.then(r => {
-      this.Douban = { data: 1, loading: false }
-    })
-    QQAxios.then(r => {
-      this.QQ = { data: 139, loading: false }
-    })
-    BilibiliAxios.then(r => {
-      this.Bilibili = { data: 12, loading: false }
     })
   },
 }
