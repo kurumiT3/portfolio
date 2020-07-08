@@ -15,7 +15,10 @@
         />
         <statCard
           statTitle="QQ"
+          :followers="twitter.data"
+          suffix="followers"
           icon="QQ.png"
+          :loading="twitter.loading"
           link="http://wpa.qq.com/msgrd?v=3&uin=1817855234&site=qq&menu=yes"
         /> 
         <statCard
@@ -28,7 +31,10 @@
         />
         <statCard
           statTitle="Douban"
+          :followers="twitter.data"
+          suffix="followers"
           icon="douban.png"
+          :loading="twitter.loading"
           link="https://www.douban.com/people/kurumit3/"
         /> 
       </div>
@@ -71,12 +77,18 @@
       <div class="row-container">
         <statCard
           statTitle="Bilibili"
+          :followers="twitter.data"
+          suffix="followers"
           icon="bilibili.png"
+          :loading="twitter.loading"
           link="https://space.bilibili.com/351869081"
         />
         <statCard
           statTitle="Coolapk"
+          :followers="twitter.data"
+          suffix="followers"
           icon="coolapk.png"
+          :loading="twitter.loading"
           link="https://space.bilibili.com/351869081"
         /> 
       </div>
