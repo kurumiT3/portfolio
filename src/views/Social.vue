@@ -14,7 +14,7 @@
           link="https://t.me/kurumit3"
         />
         <statCard
-          statTitle="QQ"
+          statTitle="QQ（1817855234）"
           :followers="137"
           suffix="friends"
           icon="QQ.png"
@@ -88,10 +88,10 @@
         <statCard
           statTitle="Coolapk"
           :followers="402"
-          suffix="followers"
+          suffix="fans"
           icon="coolapk.png"
           :loading="twitter.loading"
-          link="https://space.bilibili.com/351869081"
+          link="http://www.coolapk.com/u/1723860"
         /> 
       </div>
     </div>
