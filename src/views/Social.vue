@@ -21,7 +21,7 @@
           :loading="QQ.loading"
           link="http://wpa.qq.com/msgrd?v=3&uin=1817855234&site=qq&menu=yes"
         /> 
-      
+      <div class="col-container">
         <statCard
           statTitle="RSS"
           :followers="rss.data"
@@ -116,11 +116,11 @@ export default {
       weibo: { data: 0, loading: true },
       twitter: { data: 0, loading: true },
       github: { data: 0, loading: true },
-      Coolapk: { data: 402, loading: false },
+      Coolapk: { data: 0, loading: true },
       telegram: { data: 0, loading: true },
-      QQ: { data:139, loading: false },
-      Bilibili: { data:12, loading: false },
-      Douban: { data:1, loading: false },
+      QQ: { data:0, loading: true },
+      Bilibili: { data:0, loading: true },
+      Douban: { data:0, loading: true },
     }
   },
   mounted() {
