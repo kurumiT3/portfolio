@@ -21,6 +21,7 @@
           :loading="twitter.loading"
           link="http://wpa.qq.com/msgrd?v=3&uin=1817855234&site=qq&menu=yes"
         /> 
+        </div>
         <div class="row-container">
         <statCard
           statTitle="RSS"
