@@ -14,7 +14,7 @@
           link="https://t.me/kurumit3"
         />
         <statCard
-          statTitle="QQ“
+          statTitle="QQ"
           icon="QQ.png"
           link="http://wpa.qq.com/msgrd?v=3&uin=1817855234&site=qq&menu=yes"
         /> 
