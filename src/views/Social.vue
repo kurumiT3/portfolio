@@ -15,8 +15,8 @@
         />
         <statCard
           statTitle="QQ"
-          :followers="twitter.data"
-          suffix="followers"
+          :friends="137"
+          suffix="friends"
           icon="QQ.png"
           :loading="twitter.loading"
           link="http://wpa.qq.com/msgrd?v=3&uin=1817855234&site=qq&menu=yes"
@@ -33,7 +33,7 @@
         />
         <statCard
           statTitle="Douban"
-          :followers="twitter.data"
+          :followers="1"
           suffix="followers"
           icon="douban.png"
           :loading="twitter.loading"
@@ -79,7 +79,7 @@
       <div class="row-container">
         <statCard
           statTitle="Bilibili"
-          :followers="twitter.data"
+          :followers="12"
           suffix="followers"
           icon="bilibili.png"
           :loading="twitter.loading"
