@@ -24,7 +24,7 @@
 
       <h2>Academics</h2>
       <ul>
-        <li><b>Current:</b> Student <i>UNDERGRAD</i> at Shanghai Xiangming High School </li>
+        <li><b>Current:</b> Student at Shanghai Xiangming High School </li>
         <li>
           <b>Future:</b> UNCERTAIN
         </li>
