@@ -87,7 +87,7 @@
         />
         <statCard
           statTitle="Coolapk"
-          :followers="402"
+          :followers="468"
           suffix="fans"
           icon="coolapk.png"
           :loading="twitter.loading"
