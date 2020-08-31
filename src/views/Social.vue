@@ -112,7 +112,7 @@ export default {
   },
   data() {
     return {
-      rss: { data: 0, loading: true },
+      sspai: { data: 0, loading: true },
       zhihu: { data: 0, loading: true },
       weibo: { data: 0, loading: true },
       twitter: { data: 0, loading: true },
@@ -130,9 +130,7 @@ export default {
     const sspaiAxios = this.axios.get(`${apiUrl}/?source=sspai&queryKey=kurumit3`)
 
    
-    rssAxios.then(r => {
-      this.rss = { data: r.data.data.totalSubs, loading: false }
-    })
+    
     zhihuAxios.then(r => {
       this.zhihu = { data: r.data.data.totalSubs, loading: false }
     })
