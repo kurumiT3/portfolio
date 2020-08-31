@@ -24,12 +24,12 @@
         </div>
         <div class="row-container">
         <statCard
-          statTitle="RSS"
-          :followers="rss.data"
-          suffix="subscribers"
-          icon="rss.png"
-          :loading="rss.loading"
-          link="https://kurumit3.top/atom.xml"
+          statTitle="SSPAI"
+          :followers="sspai.data"
+          suffix="followers"
+          icon="sspai.png"
+          :loading="sspai.loading"
+          link="https://sspai.com/u/kurumit3/posts"
         />
         <statCard
           statTitle="Douban"
@@ -122,14 +122,12 @@ export default {
   },
   mounted() {
     const apiUrl = 'https://api.spencerwoo.com/substats'
-    const rssUrl = 'https://kurumit3.top/atom.xml'
-
-    const rssAxios = this.axios.get(`${apiUrl}/?source=feedly|inoreader&queryKey=${rssUrl}`)
     const zhihuAxios = this.axios.get(`${apiUrl}/?source=zhihu&queryKey=ni-lu-guang`)
     const weiboAxios = this.axios.get(`${apiUrl}/?source=weibo&queryKey=6482844382`)
     const twitterAxios = this.axios.get(`${apiUrl}/?source=twitter&queryKey=Nightma34781407`)
     const githubAxios = this.axios.get(`${apiUrl}/?source=github&queryKey=kurumiT3`)
     const telegramAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=kurumit3`)
+    const sspaiAxios = this.axios.get(`${apiUrl}/?source=sspai&queryKey=kurumit3`)
 
    
     rssAxios.then(r => {
@@ -143,6 +141,9 @@ export default {
     })
     twitterAxios.then(r => {
       this.twitter = { data: r.data.data.totalSubs, loading: false }
+    })
+    sspaiAxios.then(r => {
+      this.sspai = { data: r.data.data.totalSubs, loading: false }
     })
     githubAxios.then(r => {
       this.github = { data: r.data.data.totalSubs, loading: false }
