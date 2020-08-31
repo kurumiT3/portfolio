@@ -9,6 +9,10 @@
         ><img class="title-font" src="./../assets/images/github.svg" />Developer</a
       >
       <span>/</span>
+      <a id="sspai" href="https://sspai.com/u/kurumit3/posts"
+        ><img class="title-font" src="./../assets/images/sspai.svg" />Writer</a
+      >
+      <span>/</span>
       <a id="blog" href="https://kurumit3.top/"
         ><img class="title-font" src="./../assets/images/zeit.svg" />Blogger</a
       >
