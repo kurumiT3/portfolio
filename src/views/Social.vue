@@ -15,7 +15,7 @@
         />
         <statCard
           statTitle="QQ（1817855234）"
-          :followers="137"
+          :followers="158"
           suffix="friends"
           icon="QQ.png"
           :loading="twitter.loading"
@@ -87,7 +87,7 @@
         />
         <statCard
           statTitle="Coolapk"
-          :followers="468"
+          :followers="506"
           suffix="fans"
           icon="coolapk.png"
           :loading="twitter.loading"
