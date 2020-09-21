@@ -38,7 +38,7 @@
       <h2>Devices</h2>
       <ul>
         <li>Macbook PRO</li>
-        <li>Sora 碧 Lite</li>
+        <li>final e4000|Sora 碧 Lite</li>
         <li>Redmi Note 7 / A Poor Guy😭</li>
       </ul>
 
