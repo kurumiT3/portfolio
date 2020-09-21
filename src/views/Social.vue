@@ -15,11 +15,11 @@
         />
         <statCard
           statTitle="QQ（1817855234）"
-          :followers="158"
+          :followers="160"
           suffix="friends"
           icon="QQ.png"
           :loading="twitter.loading"
-          link="http://wpa.qq.com/msgrd?v=3&uin=1817855234&site=qq&menu=yes"
+          link="https://wpa.qq.com/msgrd?v=3&uin=1817855234&site=qq&menu=yes"
         /> 
         </div>
         <div class="row-container">
@@ -87,7 +87,7 @@
         />
         <statCard
           statTitle="Coolapk"
-          :followers="506"
+          :followers="513"
           suffix="fans"
           icon="coolapk.png"
           :loading="twitter.loading"
